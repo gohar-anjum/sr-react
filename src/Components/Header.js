@@ -1,8 +1,10 @@
 import './Header.css';
 
 function Header(props){
+    const clicked = ()=>{
+        
+    }
     return(
-
         <div className='mainheader'>
             <h4>YourLogo</h4>
             <ul>
@@ -12,7 +14,7 @@ function Header(props){
                 <li>Contact</li>
             </ul>
         
-        <button>{props.text}</button>
+        <button >Click me</button>
         </div>
     );
 }
