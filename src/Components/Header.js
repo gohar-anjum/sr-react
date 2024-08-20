@@ -13,8 +13,6 @@ function Header(props){
                 <li>Blog</li>
                 <li>Contact</li>
             </ul>
-        
-        <button >Click me</button>
         </div>
     );
 }
