@@ -13,6 +13,7 @@ function Header(props){
                 <li>Blog</li>
                 <li>Contact</li>
             </ul>
+            <button>{props.text}</button>
         </div>
     );
 }
