@@ -1,0 +1,26 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html, body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main{
+    width: 100%;
+    height: 100%;
+}
+.nameline{
+    width: 500px;
+}
+.nameline input{
+    margin-left: 50px;
+    width: 40%;
+}
+.nameline label{
+    width: 40%;
+}
